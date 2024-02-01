@@ -1,21 +1,19 @@
+const thankyou = []
+
 function writeCards(arrayOfNames, event) {
-    for (let i = 0; i < arrayOfNames.length; i++) {
+    for(let i = 0; i < arrayOfNames.length; i++) {
         thankyou.push(`Thank you, ${arrayOfNames[i]}, for the wonderful ${event} gift!`);
     }
     return thankyou
-}
-const thankyou = []
+    }
+    function countDown(){
+        let i = 10;
+        while (i >= 0) {
+            console.log(i--)
+        }
+    }
 
-function countDown() {
-let countDown = 10;
-while (countDown >= 0) {
-    console.log(countDown--)
-}
-}
-
-
-
-
+    
 
 
 
